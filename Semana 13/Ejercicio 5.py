@@ -1,0 +1,2 @@
+with open("parte1.txt", "r", encoding="utf-8") as archivo1, open("parte2.txt", "r", encoding="utf-8") as archivo2, open("completo.txt", "w", encoding="utf-8") as archivo_final:
+    archivo_final.write(archivo1.read() + "\n" + archivo2.read())
